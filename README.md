@@ -78,13 +78,11 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://citec-47.github.io/live-demo/)
+- [Live Demo Link](https://citec-47.github.io/Desk-version/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -136,7 +134,7 @@ Example:
 ```
  -->
  ## 🚀 ReadME <a name="README"></a>
- - [Readme](https://citec-47.github.io/live-demo/)
+ - [Readme](https://github.com/citec-47/Desk-version/tree/desk-view)
 
 <!-- AUTHORS -->
 
@@ -200,6 +198,7 @@ If you like this project please give it a star
 ## 📝 License <a name="license"></a>
 
 This project is [MIT] (https://github.com/citec-47/portfolio/blob/mobile-version/LICENSE.md) licensed.
+
 
 
 
