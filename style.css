@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
 
 * {
   padding: 0;
@@ -41,23 +42,21 @@ header {
   display: none;
 }
 
-.status {
-  right: 30px;
+#statusbar {
+  right: 10px;
   position: absolute;
 }
 
 .parallel {
-  width: 20px;
+  width: 2rem;
   height: 3px;
   border-radius: 1px;
-  margin: 1px 0;
+  margin: 3px 0;
   background: #6070ff;
 }
 
 .parallel img {
-  width: 20px;
-  height: 3px;
-  border-radius: 1px;
+  background-color: transparent;
 }
 
 #sectionA {
@@ -84,7 +83,7 @@ header {
 }
 
 .para-one {
-  margin-left: 22px;
+  margin-left: 0;
   width: 327px;
   font-weight: 400;
   color: #172b4d;
@@ -433,7 +432,7 @@ header {
 }
 
 form {
-  margin-top: 3rem;
+  margin-top: 30px;
   text-align: center;
   margin-bottom: 90px;
 }
@@ -465,6 +464,10 @@ form {
   font-weight: 400;
   color: #fff;
   margin: 0 10px 0 0;
+  width: 327px;
+  display: flex;
+  margin-left: 2rem;
+  text-align: center;
 }
 
 #input {
@@ -527,7 +530,7 @@ form {
     margin-right: 150px;
   }
 
-  .status {
+  .statusbar {
     display: none;
   }
 
@@ -545,7 +548,7 @@ form {
     font-weight: 700;
     margin-left: 130px;
     color: #172b4d;
-    animation: coloreffect 15s;
+    animation: coloreffect 10s;
   }
 
   @keyframes coloreffect {
@@ -578,7 +581,7 @@ form {
   }
 
   .cardernan {
-    width: auto;
+    width: 75%;
     height: auto;
     background: #fff;
     border-radius: 16px;
@@ -590,7 +593,6 @@ form {
   }
 
   .cardernan img {
-    width: 544px;
     height: 448px;
   }
 
@@ -661,6 +663,10 @@ form {
     margin-left: 1rem;
     color: rgba(57, 109, 242, 1);
     font-size: 14px;
+  }
+
+  #statusbar {
+    display: none;
   }
 
   .explain ul {
