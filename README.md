@@ -188,7 +188,7 @@ If you like this project please give it a star
 
 - I would like to thank microverse for their amazing school program
 - I would like to thank the code reviewer for reviewing my project
--Watch🙏(https://www.loom.com/share/5cca07fe06174baab741632c0fedf1a9)
+- Watch🙏(https://www.loom.com/share/5cca07fe06174baab741632c0fedf1a9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
