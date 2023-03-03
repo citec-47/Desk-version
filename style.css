@@ -540,7 +540,7 @@ form {
     font-weight: 700;
     margin-left: 130px;
     color: #172b4d;
-    animation: coloreffect 10s;
+    animation: coloreffect 15s;
   }
 
   @keyframes coloreffect {
