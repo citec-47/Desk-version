@@ -46,10 +46,12 @@ header {
 }
 
 .parallel {
-  width: 2rem;
+  display: block;
+  width: 25px;
   height: 3px;
-  border-radius: 1px;
-  margin: 3px 0;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   background: #6070ff;
 }
 
