@@ -47,16 +47,14 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 
-**[Portfolio]** is a webpage build to display my projects, about me, skill and how to get in touch with me.
+**Portfolio** is a webpage build to display my projects, about me, skill and how to get in touch with me.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -70,11 +68,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[Recent and past projects]**
-- **[Skills]**
-- **[Contact info]**
+- **Recent and past projects**
+- **Skills**
+- **Contact info**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,14 +130,9 @@ Example:
 
 ```
  -->
- ## 🚀 ReadME <a name="README"></a>
- - [Readme](https://github.com/citec-47/Desk-version/tree/desk-view)
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -155,11 +147,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Desktop view]**
-- [ ] **[contact form]**
-- [ ] **[mobile nav menu]**
+-  **Desktop view**
+- **Contact form**
+- **Mobile nav menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,7 +189,7 @@ If you like this project please give it a star
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT] (https://github.com/citec-47/portfolio/blob/mobile-version/LICENSE.md) licensed.
+This project is [MIT](https://github.com/citec-47/portfolio/blob/mobile-version/LICENSE.md)licensed.
 
 
 
