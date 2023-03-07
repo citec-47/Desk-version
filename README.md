@@ -189,18 +189,4 @@ If you like this project please give it a star
 - I would like to thank microverse for their amazing school program
 - I would like to thank the code reviewer for reviewing my project
 - Watch🙏(https://www.loom.com/share/5cca07fe06174baab741632c0fedf1a9)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT] (https://github.com/citec-47/portfolio/blob/mobile-version/LICENSE.md) licensed.
-
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
