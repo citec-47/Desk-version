@@ -504,6 +504,32 @@ form {
   background: #2230d2;
 }
 
+#home {
+  display: none;
+}
+
+#home1 {
+  position: fixed;
+      top: 5rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+
+.content1 {
+  margin-top:1rem;
+  display: block;
+
+}
+
+
+
 @media screen and (min-width: 768px) {
   header {
     padding: 0 0;
@@ -515,14 +541,30 @@ form {
     margin-left: 150px;
   }
 
-  .home {
+  #home {
     display: block;
     float: right;
     margin-right: 150px;
   }
-
-  .statusbar {
+  #home1{
     display: none;
+  }
+
+ 
+  #statusbar {
+    display: block;
+    cursor: pointer;
+  }
+  #statusbar.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #statusbar.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  #statusbar.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   #sectionA {
@@ -660,6 +702,7 @@ form {
   #statusbar {
     display: none;
   }
+  
 
   .explain ul {
     padding: 0;
