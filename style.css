@@ -510,25 +510,33 @@ form {
 
 #home1 {
   position: fixed;
-      top: 5rem;
-      flex-direction: column;
-      background-color: #fff;
-      width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      transition: 0.3s;
-      box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05);
+  top: -0.9rem;
+  display: block;
+  background-color: #6070ffce;
+  width: 100%;
+  height: 100vh;
+  transition: 0.3s;
+  left: 0;
+  z-index: 10;
 }
-
 
 .content1 {
-  margin-top:1rem;
-  display: block;
-
+  margin-top: 3rem;
+  text-align: left;
+  margin-left: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
 }
 
-
+#close {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
 
 @media screen and (min-width: 768px) {
   header {
@@ -546,23 +554,19 @@ form {
     float: right;
     margin-right: 150px;
   }
-  #home1{
+
+  #home1 {
     display: none;
   }
 
- 
-  #statusbar {
-    display: block;
-    cursor: pointer;
-  }
   #statusbar.active .bar:nth-child(2) {
     opacity: 0;
   }
-  
+
   #statusbar.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  
+
   #statusbar.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
@@ -702,7 +706,6 @@ form {
   #statusbar {
     display: none;
   }
-  
 
   .explain ul {
     padding: 0;
