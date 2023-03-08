@@ -512,19 +512,18 @@ form {
   position: fixed;
   top: -0.9rem;
   display: none;
-  background-color: #2435c5ce;
+  background-color: #3c24c5d8;
   width: 375px;
   height: 750px;
   transition: 0.3s;
   left: 0;
   z-index: 10;
-  margin-bottom: 0;
+  margin-bottom: 0rem;
 }
 
-.hom2 {
+.hom2{
   color: #fff;
 }
-
 .content1 {
   margin-top: 3rem;
   text-align: left;
