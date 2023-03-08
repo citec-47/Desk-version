@@ -511,7 +511,7 @@ form {
 #home1 {
   position: fixed;
   top: -0.9rem;
-  display: block;
+  display:none;
   background-color: #6070ffce;
   width: 100%;
   height: 100vh;
@@ -532,7 +532,7 @@ form {
 #close {
   position: absolute;
   top: 20px;
-  right: 60px;
+  right: 20px;
   color: #fff;
   font-weight: 500;
   cursor: pointer;
