@@ -599,21 +599,26 @@ form {
 
 .pics {
   width: auto;
-  height: 700px;
+  height: 500px;
 }
 
 .wkstwo {
   font-size: 16px;
   color: #344563;
   margin: 10px 0;
+  width: 65%;
+  height: 250px;
 }
 
 .Code,
 .codlist {
   display: inline-block;
+  margin-top: -250px;
 }
 
 .booton {
+  margin-left: 0;
+  font-size: 11px;
   width: 100%;
   height: auto;
   display: flex;
@@ -914,10 +919,6 @@ form {
     font-size: 10px;
   }
 
-  .booton {
-    justify-content: center;
-  }
-
   .buttout {
     font-size: 12px;
     padding: 6px 25px;
@@ -935,10 +936,17 @@ form {
 
   .container {
     left: 6.5%;
+    height: 820px;
   }
 
   .codlist {
-    margin: 9px 7px;
-    float: left;
+    margin: 9px 38px 5px 0;
+    background: #ebebff;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6070ff;
+    padding: 4px 12px;
+    border-radius: 10px;
+    float: right;
   }
 }

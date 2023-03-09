@@ -29,29 +29,31 @@ const works = [
     title: 'Tonic',
     worktype: { org: 'CANOPY', type: 'Back End Dev', year: '2017' },
     workImage: 'assets/Images/numberone.png',
-    workpara: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry..',
     workcodes: ['Css', 'Html', 'Javascript'],
-    workLive: 'http://127.0.0.1:5500/#About',
-    workSource: 'http://127.0.0.1:5500/#About',
-    liveText: 'See Live',
-    sourceText: 'see-source',
+    workLive: 'https://citec-47.github.io/Desk-version/',
+    workSource: 'https://github.com/citec-47/Desk-version/tree/pop-branch',
+    kSource: '<i class="fa-brands fa-github"></i>',
+    liveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
+    live: 'See Live',
+    source: 'see-source',
   },
   {
     title: 'Multi-Post Stories',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workImage: '/assets/Images/imagetwo.png',
-    workpara: 'Experimental content creation feature that allows users to<br> add to an existing story over the course of a day without <br>spamming their friends.',
     workcodes: ['Css', 'Html', 'Javascript'],
   },
   {
     title: 'Facebook 360',
     workImage: '/assets/Images/numberfour.png',
-    workpara: 'Exploring the fcontaineruture of media in Facebooks first Virtual Reality app;a place to discover and enjoy 360 photos and videos on Gear VR..',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workcodes: ['Css', 'Html', 'Javascript'],
   },
   {
     title: 'Uber Navigation',
     workImage: '/assets/Images/numbertwo.png',
-    workpara: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workcodes: ['Css', 'Html', 'Javascript'],
   },
   {
@@ -117,7 +119,7 @@ workin.appendChild(unlt);
 
 const unlt2 = document.createElement('li');
 unlt2.classList = 'codlist';
-unlt2.innerText = `${works[0].workpara[0]}`;
+unlt2.innerText = `${works[0].workcodes[0]}`;
 unlt.appendChild(unlt2);
 
 const unlt3 = document.createElement('li');
@@ -136,13 +138,13 @@ workin.appendChild(Button);
 
 const link = document.createElement('a');
 link.classList = 'buttout';
-link.innerHTML = `${works[0].liveText}`;
+link.innerHTML = `${works[0].live} ${works[0].liveIcons} via`;
 link.href = `${works[0].workLive}`;
 Button.appendChild(link);
 
 const link2 = document.createElement('a');
 link2.classList = 'buttout';
-link2.innerHTML = `${works[0].sourceText}`;
+link2.innerHTML = `${works[0].source} ${works[0].kSource}`;
 link2.href = `${works[0].workSource}`;
 Button.appendChild(link2);
 
