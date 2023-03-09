@@ -1,21 +1,4 @@
 {
-  "name": "desk-version",
-  "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/citec-47/Desk-version.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/citec-47/Desk-version/issues"
-  },
-  "homepage": "https://github.com/citec-47/Desk-version#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
