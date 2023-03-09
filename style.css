@@ -603,22 +603,36 @@ form {
 }
 
 .wkstwo {
-  font-size: 16px;
+  font-size: 8px;
   color: #344563;
-  margin: 10px 0;
-  width: 65%;
-  height: 250px;
+  margin: -14px 0;
+  width: 100%;
+  height: 110%;
+  margin-top: 1rem;
 }
 
 .Code,
 .codlist {
   display: inline-block;
-  margin-top: -250px;
+  margin-top: -43px;
+}
+
+.codlist {
+  margin: 55px 38px 3px -43px;
+  background: #ebebff;
+  font-weight: 500;
+  font-size: 11px;
+  color: #6070ff;
+  padding: 4px 12px;
+  border-radius: 10px;
+  float: right;
+  width: auto;
+  height: auto;
 }
 
 .booton {
-  margin-left: 0;
-  font-size: 11px;
+  margin-left: 10px;
+  font-size: 10px;
   width: 100%;
   height: auto;
   display: flex;
@@ -626,12 +640,12 @@ form {
 }
 
 .buttout {
-  padding: 8px 20px;
+  padding: -12px 20px;
   background: transparent;
   color: #6070ff;
   border: 1.5px solid #6070ff;
   border-radius: 6px;
-  margin: 10px 12px;
+  margin: 8px 11px;
   text-align-last: justify;
 }
 
@@ -653,6 +667,29 @@ form {
 
   .mylogo {
     margin-left: 150px;
+  }
+
+  .wkstwo {
+    font-size: 16px;
+    color: #344563;
+    margin: 10px 0;
+    height: 250px;
+    width: 300px;
+  }
+
+  .Code,
+  .codlist {
+    display: inline-block;
+    margin-top: -250px;
+  }
+
+  .booton {
+    margin-left: 0;
+    font-size: 11px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
   }
 
   #home {

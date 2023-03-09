@@ -29,7 +29,7 @@ const works = [
     title: 'Tonic',
     worktype: { org: 'CANOPY', type: 'Back End Dev', year: '2017' },
     workImage: 'assets/Images/numberone.png',
-    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry..',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workcodes: ['Css', 'Html', 'Javascript'],
     workLive: 'https://citec-47.github.io/Desk-version/',
     workSource: 'https://github.com/citec-47/Desk-version/tree/pop-branch',
@@ -40,20 +40,20 @@ const works = [
   },
   {
     title: 'Multi-Post Stories',
-    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workImage: '/assets/Images/imagetwo.png',
     workcodes: ['Css', 'Html', 'Javascript'],
   },
   {
     title: 'Facebook 360',
     workImage: '/assets/Images/numberfour.png',
-    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry',
     workcodes: ['Css', 'Html', 'Javascript'],
   },
   {
     title: 'Uber Navigation',
     workImage: '/assets/Images/numbertwo.png',
-    workpara: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry',
     workcodes: ['Css', 'Html', 'Javascript'],
   },
   {
