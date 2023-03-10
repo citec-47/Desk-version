@@ -177,7 +177,7 @@ worksClose.addEventListener('click', booton);
 const Namet = document.querySelector('.names');
 const Emailst = document.querySelector('.mails');
 const submiter = document.querySelectorAll('.submit');
-const reservtext = document.getElementById('eror message');
+const reservtext = document.getElementById('error');
 
 const clientData = {};
 

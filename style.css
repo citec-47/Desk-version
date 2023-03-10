@@ -843,6 +843,10 @@ form {
     font-size: 14px;
   }
 
+  #error {
+    color: #fff;
+  }
+
   #statusbar {
     display: none;
   }
@@ -997,5 +1001,9 @@ form {
     margin: 10px 0;
     height: 250px;
     width: 65%;
+  }
+
+  #reservtext {
+    color: #fff;
   }
 }
