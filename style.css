@@ -627,7 +627,7 @@ form {
 }
 
 .booton {
-  margin-left: -73px;
+  margin-left: -47px;
   font-size: 10px;
   width: 100%;
   height: auto;
@@ -636,7 +636,8 @@ form {
 }
 
 .buttout {
-  padding: -12px 20px;
+  padding: 5px;
+  width: 5rem;
   background: transparent;
   color: #6070ff;
   border: 1.5px solid #6070ff;
@@ -978,7 +979,7 @@ form {
   }
 
   .codlist {
-    margin: 9px 38px 5px 0;
+    margin: 9px 38px 5px -10px;
     background: #ebebff;
     font-weight: 500;
     font-size: 16px;

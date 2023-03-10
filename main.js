@@ -170,5 +170,4 @@ function booton() {
     worksbox.style.display = 'none';
   }
 }
-
 worksClose.addEventListener('click', booton);
