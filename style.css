@@ -60,7 +60,7 @@ header {
 }
 
 #sectionA {
-  background-image: url("./Images/fon.png");
+  background-image: url("./assets/Images/fon.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -429,7 +429,7 @@ form {
 }
 
 .sectfour {
-  background-image: ("../Images/formpic.png");
+  background-image: ("../assets/Images/formpic.png");
   background-position: right;
   background-repeat: no-repeat;
   height: auto;
@@ -504,6 +504,157 @@ form {
   background: #2230d2;
 }
 
+#home {
+  display: none;
+}
+
+#home1 {
+  position: fixed;
+  top: -0.9rem;
+  display: none;
+  background-color: #3c24c5d8;
+  width: 375px;
+  height: 750px;
+  transition: 0.3s;
+  left: 0;
+  z-index: 10;
+  margin-bottom: 0;
+}
+
+.hom2 {
+  color: #fff;
+}
+
+.content1 {
+  margin-top: 3rem;
+  text-align: left;
+  margin-left: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#comeout {
+  display: none;
+}
+
+.completwork {
+  width: 100%;
+  height: 100%;
+  background: #30313371;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: auto;
+  background: #ffff;
+  border-radius: 25px;
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
+}
+
+.picture {
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+.param {
+  width: 100%;
+}
+
+.param h1 {
+  color: #091e42;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.list,
+.cartigory {
+  display: inline-block;
+  margin: 5px 25px 5px 0;
+  font-size: 15px;
+  color: #344563;
+}
+
+.pics {
+  width: auto;
+  height: 500px;
+}
+
+.wkstwo {
+  font-size: 16px;
+  color: rgb(52, 69, 99);
+  margin: 1rem 0 -14px;
+  width: 100%;
+}
+
+.Code,
+.codlist {
+  display: inline-block;
+  margin-top: -26px;
+}
+
+.codlist {
+  margin: 63px 38px 3px -16px;
+  background: #ebebff;
+  font-weight: 500;
+  font-size: 15px;
+  color: #6070ff;
+  padding: 4px 12px;
+  border-radius: 10px;
+  float: right;
+}
+
+.booton {
+  margin-left: -47px;
+  font-size: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttout {
+  padding: 5px;
+  width: 5rem;
+  background: transparent;
+  color: #6070ff;
+  border: 1.5px solid #6070ff;
+  border-radius: 6px;
+  margin: 8px 11px;
+  text-align-last: justify;
+}
+
+.buttout:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.buttout:active {
+  background: #2230d2;
+}
+
 @media screen and (min-width: 768px) {
   header {
     padding: 0 0;
@@ -515,18 +666,53 @@ form {
     margin-left: 150px;
   }
 
-  .home {
+  .wkstwo {
+    font-size: 15px;
+    color: #344563;
+    margin: 10px 0;
+    height: 250px;
+    width: 47%;
+  }
+
+  .Code,
+  .codlist {
+    display: inline-block;
+    margin-top: -250px;
+  }
+
+  .booton {
+    margin-left: 0;
+    font-size: 11px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #home {
     display: block;
     float: right;
     margin-right: 150px;
   }
 
-  .statusbar {
+  #home1 {
     display: none;
   }
 
+  #statusbar.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #statusbar.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #statusbar.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
   #sectionA {
-    background-image: url("./Images/formpic.png");
+    background-image: url("./assets/Images/formpic.png");
     background-image: cover;
     max-width: 100%;
     margin-top: 56px;
@@ -714,7 +900,7 @@ form {
   }
 
   .sectfour {
-    background-image: url('./Images/lastman.png');
+    background-image: url('./assets/Images/lastman.png');
     background-size: cover;
     max-width: 100%;
   }
@@ -765,5 +951,51 @@ form {
     display: flex;
     gap: 3rem;
     font-size: 10px;
+  }
+
+  .buttout {
+    padding: 8px 20px;
+    background: transparent;
+    color: #6070ff;
+    border: 1.5px solid #6070ff;
+    border-radius: 6px;
+    margin: 10px 12px;
+    text-align-last: justify;
+  }
+
+  .picture {
+    width: 20px;
+    cursor: pointer;
+  }
+
+  .img {
+    width: auto;
+    height: 300px;
+  }
+
+  .container {
+    left: 6.5%;
+    height: 820px;
+  }
+
+  .codlist {
+    margin: 9px 38px 5px -10px;
+    background: #ebebff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6070ff;
+    padding: 4px 12px;
+    border-radius: 10px;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 1095px) {
+  .wkstwo {
+    font-size: 15px;
+    color: #344563;
+    margin: 10px 0;
+    height: 250px;
+    width: 65%;
   }
 }
