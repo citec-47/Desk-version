@@ -989,3 +989,13 @@ form {
     float: right;
   }
 }
+
+@media screen and (min-width: 1095px) {
+  .wkstwo {
+    font-size: 15px;
+    color: #344563;
+    margin: 10px 0;
+    height: 250px;
+    width: 65%;
+  }
+}
