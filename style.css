@@ -646,6 +646,11 @@ form {
   text-align-last: justify;
 }
 
+#error {
+  color: #fff;
+  margin: -4px;
+}
+
 .buttout:hover {
   background: #6070ff;
   color: #fff;
@@ -843,6 +848,10 @@ form {
     font-size: 14px;
   }
 
+  #error {
+    color: #fff;
+  }
+
   #statusbar {
     display: none;
   }
@@ -997,5 +1006,22 @@ form {
     margin: 10px 0;
     height: 250px;
     width: 65%;
+  }
+
+  #reservtext {
+    color: #fff;
+  }
+
+  form {
+    margin-top: -13px;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  .pras {
+    font-weight: 400;
+    font-size: 15px;
+    width: 50%;
+    margin: 0 25%;
   }
 }
