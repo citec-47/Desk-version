@@ -177,6 +177,7 @@ worksClose.addEventListener('click', booton);
 const Namet = document.querySelector('.names');
 const Emailst = document.querySelector('.mails');
 const submiter = document.querySelectorAll('.submit');
+const prevs = document.getElementById('.datap');
 const reservtext = document.getElementById('error');
 
 const clientData = {};
@@ -190,6 +191,7 @@ function EmailVerify(event) {
     reservtext.innerText = '';
     clientData.name = Namet.value;
     clientData.email = Emailst.value;
+    clientData.message = prevs.value;
   }
 }
 
@@ -199,6 +201,7 @@ const costumertData = JSON.parse(localStorage.getItem('data'));
 if (costumertData != null) {
   Emailst.value = costumertData[0].email;
   Namet.value = costumertData[0].name;
+  prevs.value = costumertData[0].message;
 }
 console.log(costumertData);
 submiter[0].addEventListener('click', () => {
