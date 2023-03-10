@@ -603,7 +603,7 @@ form {
 }
 
 .wkstwo {
-  font-size: 15px;
+  font-size: 16px;
   color: rgb(52, 69, 99);
   margin: 1rem 0 -14px;
   width: 100%;
@@ -667,11 +667,11 @@ form {
   }
 
   .wkstwo {
-    font-size: 16px;
+    font-size: 15px;
     color: #344563;
     margin: 10px 0;
     height: 250px;
-    width: 300px;
+    width: 47%;
   }
 
   .Code,
