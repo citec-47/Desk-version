@@ -203,6 +203,7 @@ if (costumertData != null) {
   Namet.value = costumertData[0].name;
   prevs.value = costumertData[0].message;
 }
+*
 console.log(costumertData);
 submiter[0].addEventListener('click', () => {
   const datas = [];
