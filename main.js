@@ -206,3 +206,35 @@ submiter[0].addEventListener('click', () => {
   datas.push({ name: Namet.value, email: Emailst.value });
   localStorage.setItem('data', JSON.stringify(datas));
 });
+
+const formStorage = document.getElementById('fum');
+const nameStorage = document.getElementById('namet');
+const emailStorage = document.getElementById('emailstt');
+const messageStorage = document.getElementById('messaget');
+
+const intoLocalStorage = (nameStorage, emailStorage, messageStorage) => {
+  const formObject = {
+    name: nameStorage.value,
+    email: emailStorage.value,
+    message: messageStorage.value,
+  };
+
+  const intoString = JSON.stringify(formObject);
+
+  localStorage.setItem('a', intoString);
+};
+
+const setInputValues = (id, value) => {
+  const selectInput = document.getElementById(id);
+  selectInput.value = value;
+};
+
+const getJson = localStorage.getItem('a');
+
+const parseJson = JSON.parse(getJson);
+Object.keys(parseJson || {}).forEach((key) => {
+  setInputValues(formStorage.elements[key].name, parseJson[key]);
+});
+formStorage.addEventListener('change', () => {
+  intoLocalStorage(nameStorage, emailStorage, messageStorage);
+});
