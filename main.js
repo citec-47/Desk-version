@@ -171,3 +171,38 @@ function booton() {
   }
 }
 worksClose.addEventListener('click', booton);
+
+// form validation//
+
+const Namet = document.querySelector('.names');
+const Emailst = document.querySelector('.mails');
+const submiter = document.querySelectorAll('.submit');
+const reservtext = document.getElementById('eror message');
+
+const clientData = {};
+
+function EmailVerify(event) {
+  const Emailcheck = /[A-Z]/.test(Emailst.value);
+  if (Emailcheck === true) {
+    reservtext.innerText = 'please all letters should be lowercase only';
+    event.preventDefault();
+  } else {
+    reservtext.innerText = '';
+    clientData.name = Namet.value;
+    clientData.email = Emailst.value;
+  }
+}
+
+submiter[0].addEventListener('click', EmailVerify);
+
+const costumertData = JSON.parse(localStorage.getItem('data'));
+if (costumertData != null) {
+  Emailst.value = costumertData[0].email;
+  Namet.value = costumertData[0].name;
+}
+console.log(costumertData);
+submiter[0].addEventListener('click', () => {
+  const datas = [];
+  datas.push({ name: Namet.value, email: Emailst.value });
+  localStorage.setItem('data', JSON.stringify(datas));
+});
