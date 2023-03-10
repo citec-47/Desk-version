@@ -193,3 +193,16 @@ function EmailVerify(event) {
   }
 }
 
+submiter[0].addEventListener('click', EmailVerify);
+
+const costumertData = JSON.parse(localStorage.getItem('data'));
+if (costumertData != null) {
+  Emailst.value = costumertData[0].email;
+  Namet.value = costumertData[0].name;
+}
+console.log(costumertData);
+submiter[0].addEventListener('click', () => {
+  const datas = [];
+  datas.push({ name: Namet.value, email: Emailst.value });
+  localStorage.setItem('data', JSON.stringify(datas));
+});
