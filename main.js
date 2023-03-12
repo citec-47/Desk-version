@@ -57,7 +57,7 @@ const works = [
     workcodes: ['Css', 'Html', 'Javascript'],
   },
   {
-    image: '/assets/Images/exit.png',
+    image: './assets/Images/exit.png',
   },
 ];
 
