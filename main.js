@@ -34,7 +34,7 @@ const works = [
     workLive: 'https://citec-47.github.io/Desk-version/',
     workSource: 'https://github.com/citec-47/Desk-version/tree/pop-branch',
     kSource: '<i class="fa-brands fa-github"></i>',
-    liveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
+    Icons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     live: 'See Live',
     source: 'see-source',
   },
@@ -138,7 +138,7 @@ workin.appendChild(Button);
 
 const link = document.createElement('a');
 link.classList = 'buttout';
-link.innerHTML = `${works[0].live} ${works[0].liveIcons} via`;
+link.innerHTML = `${works[0].live} ${works[0].Icons} via`;
 link.href = `${works[0].workLive}`;
 Button.appendChild(link);
 
