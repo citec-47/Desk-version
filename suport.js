@@ -3,7 +3,7 @@ const info = {
   works: [
     {
       id: 1,
-      image: './images/card5.png',
+      image: './image/card5.png',
       title: 'ToDo List',
       subtit1: 'MICROVERSE',
       subtit2: 'Front-End Dev',
@@ -20,7 +20,7 @@ const info = {
     },
     {
       id: 2,
-      image: './images/card6.png',
+      image: './image/card6.png',
       title: 'Countries Details',
       subtit1: 'MICROVERSE',
       subtit2: 'Frontend Dev',
@@ -39,7 +39,7 @@ const info = {
     },
     {
       id: 3,
-      image: './images/card7.png',
+      image: './image/card7.png',
       title: "Space Traveler's Hub",
       subtit1: 'MICROVERSE',
       subtit2: 'Front-End Dev',
@@ -59,7 +59,7 @@ const info = {
     },
     {
       id: 4,
-      image: './images/card8.png',
+      image: './image/card8.png',
       title: 'LeaderBoard App',
       subtit1: 'MICROVERSE',
       subtit2: 'Front-End Dev',
@@ -90,9 +90,9 @@ function creatingWorkSection() {
         <h2>${data.title}</h2>
         <div class="infoline">
           <h3>${data.subtit1}</h3>
-          <img src="images/dot.png" alt="">
+          <img src="./image/dot.png" alt="">
           <h4>${data.subtit2}</h4>
-          <img src="images/dot.png" alt="">
+          <img src="./image/dot.png" alt="">
           <h4>${data.subtit3}</h4>
         </div>
         <p>${data.description}</p>
@@ -120,14 +120,14 @@ function creatingPopupSection() {
         <div class="pop-title">
         <h2>${data.title}</h2>
         <a href="javascript:void(0);" id="pop-close" onclick="WorkCArdS('popcard${data.id}')">
-          <img  src="./images/pop-close.svg"  alt="close">
+          <img  src="./image/pop-close.svg"  alt="close">
         </a>
         </div>
         <div class="pop-infoline">
         <h3>${data.subtit1}</h3>
-        <img src="images/dot.png" alt="">
+        <img src="./image/dot.png" alt="">
         <h4>${data.subtit2}</h4>
-        <img src="images/dot.png" alt="">
+        <img src="./image/dot.png" alt="">
         <h4>${data.subtit3}</h4>
         </div>
 
@@ -149,10 +149,10 @@ function creatingPopupSection() {
           <div class="pop-buttons">
             <button type="button" class="pop-btn" onclick=
               "parent.open('${data.livelink}')">See Live
-              <img src="images/popup-btn-Icon.png" alt=""></button>
+              <img src="./image/popup-btn-Icon.png" alt=""></button>
             <button type="button" class="pop-btn" onclick=
               "parent.open('${data.sourcelink}')">See Source
-              <img src="images/popup-github.png" alt=""></button>
+              <img src="./image/popup-github.png" alt=""></button>
           </div>
         </div>
         </div>
