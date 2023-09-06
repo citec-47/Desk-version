@@ -4,15 +4,15 @@ const info = {
   works: [
   {
     id: 1,
-    image: 'images/work5.png',
+    image: 'images/card5.png',
     title: 'ToDo List',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
     subtit3: '2022',
     description: `to-do list application using Js/webpack`,
-    tech1: 'react & redux',
-    tech2: 'javaScript',
-    tech3: 'css',
+    techno1: 'react & redux',
+    techno2: 'javaScript',
+    techno3: 'css',
       popup_description: `ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or
      list everything that we have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom.
      It is helpful in planning our daily schedules.`,
@@ -21,27 +21,26 @@ const info = {
   },
   {
     id: 2,
-    image: 'images/work6.png',
-    title: 'The Future Mobility',
+    image: 'images/card6.png',
+    title: 'Countries Details',
     subtit1: 'MICROVERSE',
-    subtit2: 'Full Stack Dev',
+    subtit2: 'Frontend Dev',
     subtit3: '2023',
-    description: `The Future Mobility is a Full Stack web application,
-    developed in Ruby on Rails for the API only back-end server
-    and in React & Redux for the front-end webapp.`,
-    tech1: 'ruby on rails',
-    tech2: 'react & redux',
-    tech3: 'database',
-    popup_description: `Future Mobility manages the CRUD of vehicles
-    and reservations on an electric car website, which also allows the
-    creation of new users and access through an authentication mechanism.
-    Was developed by a team of four members.`,
+    description: `This is a capstone project that uses React and 
+    Redux technologies. The website provides detailed information about countries by utilizing an API.`,
+    techno1: 'ruby on rails',
+    techno2: 'react & redux',
+    techno3: 'database',
+    popup_description: `This is a capstone project that uses React and 
+    Redux technologies. The website provides detailed information about countries by utilizing an API.
+    When you click on any of the countries,it shows you, the population size, surface area
+    The continent, the capital city, the flag and a link to the map of the country`,
     livelink: 'https://maurice.onrender.com/',
     sourcelink: 'https://github.com/citec-47/React-capstone'
   },
   {
     id: 3,
-    image: 'images/work7.png',
+    image: 'images/card7.png',
     title: "Space Traveler's Hub",
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
@@ -49,9 +48,9 @@ const info = {
     description: `Space Traveler's Hub is a responsive web application built
     in React & Redux, allowing users to book rockets and join selected space missions
     working with real live data from the SpaceX API.`,
-    tech1: 'react & redux',
-    tech2: 'javaScript',
-    tech3: 'css',
+    techno1: 'react & redux',
+    techno2: 'javaScript',
+    techno3: 'css',
     popup_description: `Space Traveler's Hub is a web application
     for a company that provides commercial and scientific space travel services.
     The application allow users to book rockets and join selected space missions,
@@ -61,16 +60,16 @@ const info = {
   },
   {
     id: 4,
-    image: 'images/work8.png',
+    image: 'images/card8.png',
     title: 'LeaderBoard App',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
     subtit3: '2022',
     description: `A leaderboard that displays scores submitted by different players. Allows submission of your own score.
     All data is preserved thanks to the external Leaderboard API service.`,
-    tech1: 'html',
-    tech2: 'css',
-    tech3: 'javaScript',
+    techno1: 'html',
+    techno2: 'css',
+    techno3: 'javaScript',
     popup_description: `A leaderboard that displays scores submitted by different players. Allows submission of your own score.
     All data is preserved thanks to the external Leaderboard API service.`,
     livelink: 'https://citec-47.github.io/Leader-board/dist/',
@@ -81,11 +80,11 @@ const info = {
 
 //Work cards
 const theWorks = info.works;
-const queryWorkSection = document.getElementById ('work-section');
+const getWorkSection = document.getElementById ('section_B');
 
-function createWorkSection() {
+function creatingWorkSection() {
   theWorks.forEach(  (data) => {
-    queryWorkSection.innerHTML += `<div id="work${data.id}" class="card card-odd"><div class="works-img" >
+    getWorkSection.innerHTML += `<div id="work${data.id}" class="card card-odd"><div class="works-img" >
         <img src="${data.image}" alt="Work ${data.id}">
       </div>
       <div class="works">
@@ -100,12 +99,12 @@ function createWorkSection() {
         <p>${data.description}</p>
         <div class="work-languages">
           <ul>
-            <li>${data.tech1}</li>
-            <li>${data.tech2}</li>
-            <li>${data.tech3}</li>
+            <li>${data.techno1}</li>
+            <li>${data.techno2}</li>
+            <li>${data.techno3}</li>
           </ul>
         </div>
-        <button type="button" onclick="WorkCards('popcard${data.id}')" class="work-btn">See Project</button>
+        <button type="button" onclick="WorkCArdS('popcard${data.id}')" class="work-btn">See Project</button>
       </div>
       </div>
   `;
@@ -114,15 +113,15 @@ function createWorkSection() {
 }
 
 //Popup Cards
-const queryPopupSection = document.getElementById ('popup-work-section');
+const getPopupSection = document.getElementById ('popup-section_B');
 
-function createPopupSection() {
+function creatingPopupSection() {
   theWorks.forEach(  (data) => {
-    queryPopupSection.innerHTML += `
+    getPopupSection.innerHTML += `
       <div id="popcard${data.id}">
         <div class="pop-title">
         <h2>${data.title}</h2>
-        <a href="javascript:void(0);" id="pop-close" onclick="WorkCards('popcard${data.id}')">
+        <a href="javascript:void(0);" id="pop-close" onclick="WorkCArdS('popcard${data.id}')">
           <img  src="./images/pop-close.svg"  alt="close">
         </a>
         </div>
@@ -145,9 +144,9 @@ function createPopupSection() {
         </div>
         <div class="pop-languages">
           <ul>
-            <li>${data.tech1}</li>
-            <li>${data.tech2}</li>
-            <li>${data.tech3}</li>
+            <li>${data.techno1}</li>
+            <li>${data.techno2}</li>
+            <li>${data.techno3}</li>
           </ul>
           <div class="pop-buttons">
             <button type="button" class="pop-btn" onclick=
@@ -166,36 +165,36 @@ function createPopupSection() {
 
 //For the Popup Cards
 // eslint-disable-next-line no-unused-vars
-function WorkCards (popcardNumber) {
+function WorkCArdS (popcardNumber) {
 
   if ( document.getElementById(popcardNumber).style.display == 'block') {
    document.getElementById(popcardNumber).style.display = 'none';
-   document.getElementById('popup-work-section').style.display = 'none';
-   document.getElementById('toolbar').style.display = 'flex';
-   document.getElementById('section-headline').style.display = 'block';
-   document.getElementById('work-section').style.display = 'grid';
+   document.getElementById('popup-section_B').style.display = 'none';
+   document.getElementById('toolbas').style.display = 'flex';
+   document.getElementById('section-B').style.display = 'block';
+   document.getElementById('section_B').style.display = 'grid';
 
    document.getElementById('about-section').style.display = 'flex';
    document.getElementById('contact-background').style.display = 'block';
 
-   document.getElementById('menu-desktop').style.display = 'flex';
+   document.getElementById('desktop-menu').style.display = 'flex';
 
    //jump to the original Card
    window.location.href = "#work"+ popcardNumber.substring(7, 8);
   } else {
    document.getElementById(popcardNumber).style.display = 'block';
-   document.getElementById('popup-work-section').style.display = 'flex';
-   document.getElementById('toolbar').style.display = 'none';
-   document.getElementById('section-headline').style.display = 'none';
-   document.getElementById('work-section').style.display = 'none';
+   document.getElementById('popup-section_B').style.display = 'flex';
+   document.getElementById('toolbas').style.display = 'none';
+   document.getElementById('section-B').style.display = 'none';
+   document.getElementById('section_B').style.display = 'none';
 
    document.getElementById('about-section').style.display = 'none';
    document.getElementById('contact-background').style.display = 'none';
 
-   document.getElementById('menu-desktop').style.display = 'none';
+   document.getElementById('desktop-menu').style.display = 'none';
 
  }
 }
 
-createWorkSection();
-createPopupSection();
+creatingWorkSection();
+creatingPopupSection();

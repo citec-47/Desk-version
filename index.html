@@ -12,23 +12,23 @@
 </head>
 <body>
   <!-- DeskTop -->
-  <nav id="menu-desktop" class="menu-desktop">
-    <a href="#work-section">Portfolio</a>
+  <nav id="desktop-menu" class="desktop-menu">
+    <a href="#section_B">Portfolio</a>
     <a href="#about-section">About</a>
     <a href="#contact-background">Contact</a>
   </nav>
 
-  <header class="toolbar" id="toolbar">
+  <header class="toolbas" id="toolbas">
 
-    <nav id="main-menu" class="mobile-nav">
+    <nav id="mobile-menu" class="mobile-nav">
       <a id="menu-icon" href="#mobile-menu" onclick="MobileMenu()"><img src="./images/hamburger-icon.svg" alt="Menu"></a>
 
       <!-- MobileMenu Only appears when Hamburguer Icon is pressed -->
       <div id="MobileMenu" >
-        <a id="close-menu" class="close-menu" onclick="MobileMenu()" >
+        <a id="close-menu-bar" class="close-menu-bar" onclick="MobileMenu()" >
           <img src="./images/close-x.svg"  alt="close menu">
         </a>
-        <a href="#work-section" onclick="MobileMenu()" class="menu">Portfolio</a>
+        <a href="#section_B" onclick="MobileMenu()" class="menu">Portfolio</a>
         <a href="#about-section" onclick="MobileMenu()" class="menu">About</a>
         <a href="#contact-background" onclick="MobileMenu()" class="menu">Contact</a>
       </div>
@@ -39,16 +39,16 @@
 
   <main class="main-container">
 
-    <section class="section-headline" id="section-headline">
-      <div class="headline">
-        <h1 class="welcome" >I'm Ndonyi Maurice.<br>
+    <section class="section-B" id="section-B">
+      <div class="headine">
+        <h1 class="welcomin" >I'm Ndonyi Maurice.<br>
             Glad to see you!</h1>
-        <p class="welcome1">
+        <p class="welcome">
           I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
         </p>
         <h3>LET'S CONNECT</h3>
         <div>
-          <ul class="icons-social" >
+          <ul class="social-icons" >
             <li>
               <a href="https://github.com/citec-47" target="_blank"  rel="noopener noreferrer">
                 <img src="images/github.png" class="social" alt="Github"></a>
@@ -70,10 +70,10 @@
       </div>
     </section>
 
-    <section class="work-section" id="work-section">
+    <section class="section_B" id="section_B">
     </section>
 
-    <section id="popup-work-section">
+    <section id="popup-section_B">
     </section>
 
     <section class="about-section" id="about-section">
@@ -87,7 +87,7 @@
         </p>
         <h3>LET'S CONNECT</h3>
         <div>
-            <ul class="icons-social">
+            <ul class="social-icons">
               <li>
                 <a href="https://github.com/citec-47" target="_blank"  rel="noopener noreferrer">
                   <img src="images/github.png" class="social" alt="Github"></a>
@@ -149,7 +149,7 @@
                 required />
               </li>
               <li>
-                <label><textarea id="contactText"  placeholder="Write your message here"
+                <label><textarea id="contact_Text"  placeholder="Write your message here"
                 class="contact-txt" name="contact_text"
                 cols="30" rows="5"  maxlength="500" required
                 ></textarea></label>

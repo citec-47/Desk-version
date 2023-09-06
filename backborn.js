@@ -1,32 +1,32 @@
-const queryMobileMenu = document.getElementById('MobileMenu');
+const getMobileMenu = document.getElementById('MobileMenu');
 
 //For Mobile Menu
 // eslint-disable-next-line no-unused-vars
 function MobileMenu () {
-  if ( queryMobileMenu.style.display == 'block') {
-    queryMobileMenu.style.display = 'none';
+  if ( getMobileMenu.style.display == 'block') {
+    getMobileMenu.style.display = 'none';
   } else {
-    queryMobileMenu.style.display  = 'block';
+    getMobileMenu.style.display  = 'block';
     }
 }
 
 
 // For email Validation.
-const contact_form = document.getElementById('contact-form');
+const contacts_form = document.getElementById('contact-form');
 const email = document.getElementById('email');
-const emailLabel = document.getElementById('label-email');
+const email_Label = document.getElementById('label-email');
 const underCase = /^[a-z0-9_.+-]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 
 // eslint-disable-next-line no-unused-vars
-function email_validation() {
+function email_validated() {
   if (underCase.test(email.value)) {
-    contact_form.submit();
-    contact_form.reset();
-    emailLabel.style.display = 'none';
+    contacts_form.submit();
+    contacts_form.reset();
+    email_Label.style.display = 'none';
     email.style.border = 'none';
     return false;
   } else {
-    emailLabel.style.display = 'block';
+    email_Label.style.display = 'block';
     email.style.border = '3px solid red';
     return false;
   }
@@ -34,7 +34,7 @@ function email_validation() {
 
 //For local Storage
 const fullName = document.getElementById('fullName');
-const contactText = document.getElementById('contactText');
+const contact_Text = document.getElementById('contact_Text');
 document.addEventListener('focusout', saveStorage);
 
 function saveStorage() {
@@ -42,27 +42,27 @@ function saveStorage() {
   const contactForm = {
   fullName: fullName.value,
   email: email.value,
-  contactText: contactText.value
+  contact_Text: contact_Text.value
 };
 localStorage.setItem('contactForm', JSON.stringify(contactForm));
 }
 
-function readStorageValues() {
+function showStorageValues() {
   if (localStorage.getItem('contactForm')) {
     const contactForm = JSON.parse(localStorage.getItem('contactForm'));
-    const currentName = contactForm.fullName;
-    const currentEmail = contactForm.email;
-    const currentTextarea = contactForm.contactText;
+    const recentName = contactForm.fullName;
+    const recentEmail = contactForm.email;
+    const recentTextarea = contactForm.contact_Text;
 
-    fullName.value = currentName;
-    email.value = currentEmail;
-    contactText.value = currentTextarea;
+    fullName.value = recentName;
+    email.value = recentEmail;
+    contact_Text.value = recentTextarea;
 
   } else {
     fullName.value = '';
     email.value = '';
-    contactText.value = '';
+    contact_Text.value = '';
   }
 }
 
-window.addEventListener('load', readStorageValues);
+window.addEventListener('load', showStorageValues);

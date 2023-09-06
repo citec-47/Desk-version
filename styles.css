@@ -34,7 +34,7 @@ body {
   }
 }
 
-.toolbar {
+.toolbas {
   width: 100vw;
   height: 50px;
   display: flex;
@@ -63,7 +63,7 @@ body {
   cursor: pointer;
 }
 
-.menu-desktop {
+.desktop-menu {
   display: none;
 }
 
@@ -90,14 +90,14 @@ body {
   line-height: 44px;
 }
 
-.close-menu {
+.close-menu-bar {
   padding-bottom: 0;
   padding-left: 82%;
   padding-top: 0;
   margin: 0;
 }
 
-.section-headline {
+.section-B {
   background: #fff;
   border-bottom-left-radius: 80px;
   width: 100vw;
@@ -107,14 +107,14 @@ body {
   background-position: 0 0;
 }
 
-.headline {
+.headine {
   padding: 206px 24px 100px 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.welcome {
+.welcomin {
   background-image:
     linear-gradient(
       -225deg,
@@ -132,7 +132,7 @@ body {
   display: inline-block;
 }
 
-.welcome1:hover {
+.welcome:hover {
   background-image:
     linear-gradient(
       -225deg,
@@ -150,7 +150,7 @@ body {
   display: inline-block;
 }
 
-.headline h1 {
+.headine h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -159,7 +159,7 @@ body {
   width: 80%;
 }
 
-.headline p {
+.headine p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -167,7 +167,7 @@ body {
   width: 70%;
 }
 
-.headline h3 {
+.headine h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -203,7 +203,7 @@ body {
   padding-bottom: 20px;
 }
 
-.icons-social {
+.social-icons {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -273,7 +273,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.work-section {
+.section_B {
   display: grid;
   grid-template-rows: repeat(var(--numCards), auto);
   row-gap: 104px;
@@ -293,7 +293,7 @@ body {
   border-radius: 16px;
 }
 
-#popup-work-section {
+#popup-section_B {
   display: none;
   flex-direction: column;
   background-color: white;
@@ -355,7 +355,7 @@ body {
   align-self: center;
 }
 
-#popup-work-section h2 {
+#popup-section_B h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -651,7 +651,7 @@ body {
     width: auto;
   }
 
-  .menu-desktop {
+  .desktop-menu {
     overflow: hidden;
     background-color: #e5e5e5;
     position: fixed;
@@ -665,7 +665,7 @@ body {
     padding-right: 5%;
   }
 
-  .menu-desktop a {
+  .desktop-menu a {
     float: right;
     display: block;
     color: #344563;
@@ -676,7 +676,7 @@ body {
     width: 90px;
   }
 
-  .toolbar {
+  .toolbas {
     justify-content: space-between;
     width: 100%;
   }
@@ -694,26 +694,26 @@ body {
     height: 170px;
   }
 
-  .section-headline {
+  .section-B {
     background-image: url("images/background-desktop.svg");
     background-repeat: no-repeat;
     background-size: 90%;
   }
 
-  .headline {
+  .headine {
     padding: 314px 260px 325px 260px;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
 
-  .headline h1 {
+  .headine h1 {
     font-size: 48px;
     line-height: 52px;
     width: 80%;
   }
 
-  .headline p {
+  .headine p {
     font-size: 20px;
     line-height: 28px;
     width: 90%;
@@ -761,7 +761,7 @@ body {
     flex-direction: row;
   }
 
-  .work-section {
+  .section_B {
     grid-template-rows: repeat(var(--numCards), auto);
     width: 90vw;
     margin: 0 auto;
@@ -860,12 +860,12 @@ body {
     padding-top: 0;
   }
 
-  #popup-work-section {
+  #popup-section_B {
     padding: 2.076%;
     margin: 9.86%;
   }
 
-  #popup-work-section h2 {
+  #popup-section_B h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
