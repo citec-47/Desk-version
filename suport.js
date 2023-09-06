@@ -3,7 +3,7 @@ const info = {
   works: [
     {
       id: 1,
-      image: 'images/card5.png',
+      image: './images/card5.png',
       title: 'ToDo List',
       subtit1: 'MICROVERSE',
       subtit2: 'Front-End Dev',
@@ -20,7 +20,7 @@ const info = {
     },
     {
       id: 2,
-      image: 'images/card6.png',
+      image: './images/card6.png',
       title: 'Countries Details',
       subtit1: 'MICROVERSE',
       subtit2: 'Frontend Dev',
@@ -39,7 +39,7 @@ const info = {
     },
     {
       id: 3,
-      image: 'images/card7.png',
+      image: './images/card7.png',
       title: "Space Traveler's Hub",
       subtit1: 'MICROVERSE',
       subtit2: 'Front-End Dev',
@@ -59,7 +59,7 @@ const info = {
     },
     {
       id: 4,
-      image: 'images/card8.png',
+      image: './images/card8.png',
       title: 'LeaderBoard App',
       subtit1: 'MICROVERSE',
       subtit2: 'Front-End Dev',

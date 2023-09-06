@@ -133,7 +133,7 @@ body {
   background: #fff;
   border-bottom-left-radius: 80px;
   width: 100vw;
-  background-image: url("images/background-mobile.svg");
+  background-image: url("./images/background-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -566,7 +566,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   border-top-left-radius: 80px;
-  background-image: url(./images/backg-balls-mobile.svg);
+  background-image: url("./images/backg-balls-mobile.svg");
   padding: 103px 24px 8px 24px;
 }
 
@@ -727,7 +727,7 @@ body {
   }
 
   .section-B {
-    background-image: url("images/background-desktop.svg");
+    background-image: url("./images/background-desktop.svg");
     background-repeat: no-repeat;
     background-size: 90%;
   }
@@ -961,7 +961,7 @@ body {
   }
 
   .contactform-section {
-    background-image: url(./images/backg-balls-desktop.svg);
+    background-image: url("./images/backg-balls-desktop.svg");
   }
 
   #label-email {
