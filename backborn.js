@@ -62,4 +62,4 @@ function showStorageValues() {
   }
 }
 
-window.addEventListener('load', showStorageValues);
+window.addEventListener('', showStorageValues);
